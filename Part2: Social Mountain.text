@@ -1,0 +1,42 @@
+1. Accepts parameter of body.
+-Body is expecting the text of the new post.
+
+2. Returns an array of all posts.
+
+3. https://practiceapi.devmountain.com/api/posts?id=555
+
+4. 200 (returns array of filtered posts) and 409 (request query is missing required text poperty).
+
+5. URL: https://practiceapi.devmountain.com/api/posts
+    Body:
+    {
+    "text": "Andrea"
+    }
+    Response Body:
+      {
+    "id": 823,
+    "text": "Andrea",
+    "date": "13 Apr 2022"
+  }
+
+6. URL: https://practiceapi.devmountain.com/api/posts
+    Body:
+    {
+    "text": "Red"
+    }
+    Response Body:
+      {
+    "id": 823,
+    "text": "Red",
+    "date": "13 Apr 2022"
+  }
+
+7. https://practiceapi.devmountain.com/api/posts/filter?text=blue
+
+8. Content-type: application/json; charset=utf-8
+
+9. Request query is missing required text poperty (id or body text).
+
+10. The GET request still returns all posts and does not apply the query. 
+When the developer designed the endpoints, they did not allow for a query param (or any params) in the general GET request. 
+Instead, they created a different endpoint (/posts/filter) that does accept a query parameter with the purpose of filtering through all the data that can be attained in the GET request.

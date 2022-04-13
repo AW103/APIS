@@ -1,0 +1,35 @@
+1. Darth Vader Object:
+"https://swapi.dev/api/people/4"
+OR
+ "https://swapi.dev/api/people/?search=vader"
+
+ 2. Alderaan Object:
+ "https://swapi.dev/api/planets/2"
+ OR
+ "https://swapi.dev/api/planets/?search=alderaan"
+
+ 3. Millennium Falcon Object:
+ "https://swapi.dev/api/starships/10"
+ OR
+ "https://swapi.dev/api/starships/?search=millennium"
+
+ 4. C-3po Object:
+ "https://swapi.dev/api/people/2"
+ OR 
+ "https://swapi.dev/api/people/?search=c-3po"
+
+ 3po Species Object:
+ "https://swapi.dev/api/species/2"
+
+ 5. Obi-Wan Kenobi Object: 
+ "https://swapi.dev/api/people/?search=obi-wan"
+ Obi-Wan Films Objects:
+     "https://swapi.dev/api/films/1/",
+     "https://swapi.dev/api/films/2/",
+     "https://swapi.dev/api/films/3/",
+     "https://swapi.dev/api/films/4/",
+     "https://swapi.dev/api/films/5/",
+     "https://swapi.dev/api/films/6/"
+
+6. Millennium Falcon Object:
+ "https://swapi.dev/api/starships/?search=millennium"
